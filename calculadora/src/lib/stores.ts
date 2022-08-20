@@ -10,8 +10,8 @@ if (browser) {
     cobrarStore = localStorage.cobrar;
 }
 
-export const taxaLocalStorage = writable<number>(taxaStore)
-export const receberLocalStorage = writable<number>(receberStore)
+export const taxaLocalStorage = writable<number>(taxaStore ?? 12)
+export const receberLocalStorage = writable<number>(receberStore ?? 100)
 export const cobrarLocalStorage = writable<number>(cobrarStore)
 
 
