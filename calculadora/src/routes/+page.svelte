@@ -3,12 +3,12 @@
 </script>
 
 <svelte:head>
-	<title>capy.bar - Calculadora de preços Shoppee</title>
+	<title>capy.bar - Calculadora de preços com taxa</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <section>
-	<h1>Calculadora de preços Shopee</h1>
+	<h1>Calculadora de preços com taxa</h1>
 	<Calculadora />
 </section>
 
